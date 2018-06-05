@@ -1,0 +1,6 @@
+<form action="#">
+  <input type="text"  class="input" [(ngModel)]="username" required name="username"/>
+  <input type="password"  class="input" [(ngModel)]="password" required name="password"/>
+  <button class="submit" (click)="login(username, password)">Sign in</button>
+  <button class="submit" (click)="logout()">Sign out</button>
+</form>
